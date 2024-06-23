@@ -1,0 +1,39 @@
+.infos-bar {
+    padding: 16px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+        padding-right: 18px;
+
+        &__item {
+            font-size: 14px;
+        }
+    }
+
+    @media(max-width: 640px) {
+        display: block;
+
+        &__infos {
+            display: block;
+            margin-top: 12px;
+
+            @media(max-width: 1024px) {
+                &__infos {
+                    gap: 16px;
+                }
+            }   
+        }
+    }
+}
+
+b {
+    color: #ff2051;
+    font-size: 18px;
+    display: block;
+
+}
+

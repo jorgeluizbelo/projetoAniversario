@@ -1,0 +1,21 @@
+.infos-bar {
+  background-color: #fff;
+  padding: 16px 24px;
+}
+
+.infos-bar__infos {
+  gap: 40px;
+  display: flex;
+}
+
+.infos-bar__infos__item {
+  color: #000;
+  font-size: 14px;
+}
+
+.infos-bar__infos__item b {
+  color: #000;
+  font-size: 18px;
+  display: block;
+}
+/*# sourceMappingURL=index.51654e7e.css.map */

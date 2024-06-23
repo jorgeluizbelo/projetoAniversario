@@ -1,0 +1,29 @@
+.hero {
+    padding-top: 14px;
+    padding-bottom: 100px;
+    background-color: #ff2051;
+
+    &__text {
+        margin-top: 24px;
+        margin-bottom: 14px;
+        font-size: 40px;
+        line-height: 56px;
+        color: #fff;
+        font-weight: 800;
+        text-align: center;
+
+    }
+
+    .hero__sp1 {
+        font-family: "Playwrite NG Modern", cursive;
+        color: black;
+        font-size: 32px;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        height: 120px;
+        display: block;
+    }
+}
+
